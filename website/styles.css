@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+header h1,
+footer p {
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form select {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+form input[type="submit"] {
+  padding: 5px 10px;
+}
+
+.container1 {
+  position: relative; /* Nécessaire pour positionner en absolu */
+  display: flex;
+  justify-content: center; /* Centre horizontal */
+  align-items: center; /* Centre vertical */
+}
+.image-home {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.text1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  color: white;
+}
+.text {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.class-container {
+  position: absolute;
+}
+.video-background {
+  position: fixed; /* Fixe la vidéo en arrière-plan */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  object-fit: cover; /* Adapte la vidéo à l'écran sans déformation */
+  z-index: -1; /* Place la vidéo en arrière-plan */
+}
+.image-register {
+  position: fixed; /* Fixe la vidéo en arrière-plan */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adapte la vidéo à l'écran sans déformation */
+  z-index: -1; /* Place la vidéo en arrière-plan */
+}
+/* Centrage du contenu */
+.container2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.container3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  color: white;
+  height: 80vh;
+}
+input[type="submit"] {
+  background: #cfd1cf;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background: #a9eea9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+}

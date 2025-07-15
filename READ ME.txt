@@ -1,0 +1,11 @@
+instructions to execute the code :
+
+-Import all SQL files into phpMyAdmin for the database.
+
+-Place your project in C:\xampp\htdocs\e_hotels.
+
+-Make sure that the file index.php is directly in that folder.
+
+-Verify that XAMPP (Apache) is started.
+
+-Type http://localhost/e_hotels/index.php in your browser.
